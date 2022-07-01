@@ -1,0 +1,26 @@
+@media screen and (max-width: 768px) {
+  .navbar .nav-link {
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .navbar .nav-logo {
+    display: block;
+  }
+  .navbar .nav-list {
+    z-index: 10;
+    display: none;
+    flex-direction: column;
+  }
+  .navbar .nav-list:last-child {
+    padding-bottom: 15px;
+  }
+  .services .service-cards {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .services .services-offers {
+    position: relative!important;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
