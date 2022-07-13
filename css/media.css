@@ -14,13 +14,8 @@
   .navbar .nav-list:last-child {
     padding-bottom: 15px;
   }
-  .services .service-cards {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-  }
-  .services .services-offers {
-    position: relative!important;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-  }
+ .about .about-content{
+    flex-direction: column;
+    width: 100%;  
+}
 }
