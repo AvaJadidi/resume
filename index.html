@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductPage</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="project-container">
+        <header>
+            <h1 class="logo">
+                Ava_webino | Product Page
+            </h1>
+        </header>
+        <main>
+            <div id="search">
+                <input id="search-input" type="text" placeholder="Search Name">
+                <div class="product-category">
+                    <button class="filter active" data-filter="all" >All</button>
+                    <button class="filter" data-filter="tech">Tech</button>
+                    <button class="filter" data-filter="clothing">Clothing</button>
+                    <button class="filter" data-filter="health">Health</button>
+                </div>
+                <div>
+                    <input type="number" id="input-price" min="1" placeholder="Search Price" >
+                    <button id="search-price">Search</button>
+                </div>
+            </div>
+            <div class="product-container">
+                <!-- ===========product 1 -->
+                <div class="product-item" data-category="tech">
+                    <img src="./image/iphone.png" alt="">
+                    <p>Apple iphone14 pro</p>
+                    <span>$ 1499</span>
+                </div>
+                 <!-- ===========product 2 -->
+                 <div class="product-item" data-category="clothing">
+                    <img src="./image/shoes.png" alt="">
+                    <p>Running shoes</p>
+                    <span>$ 199</span>
+                </div>
+                 <!-- ===========product 3 -->
+                 <div class="product-item" data-category="tech">
+                    <img src="./image/watch.png" alt="">
+                    <p>Apple watch</p>
+                    <span>$ 399</span>
+                </div>
+                 <!-- ===========product 4 -->
+                 <div class="product-item" data-category="clothing">
+                    <img src="./image/bag.png" alt="">
+                    <p>College bag</p>
+                    <span>$ 139</span>
+                </div>
+                 <!-- ===========product 5 -->
+                 <div class="product-item" data-category="clothing">
+                    <img src="./image/jacket.png" alt="">
+                    <p>Boy's Jacket</p>
+                    <span>$ 169</span>
+                </div>
+                 <!-- ===========product 6 -->
+                 <div class="product-item" data-category="health">
+                    <img src="./image/shampoo.png" alt="">
+                    <p>KeratinHair Care</p>
+                    <span>$ 39</span>
+                </div>
+                <!-- ===========product 7 -->
+                 <div class="product-item" data-category="tech">
+                    <img src="./image/airpods.png" alt="">
+                    <p>Apple Airpod Pro</p>
+                    <span>$ 299</span>
+                </div>
+                 <!-- ===========product 8-->
+                 <div class="product-item" data-category="health">
+                    <img src="./image/vitamin.png" alt="">
+                    <p>Vitamin E</p>
+                    <span>$ 39</span>
+                </div>
+                 <!-- ===========product 9 -->
+                 <div class="product-item" data-category="health">
+                    <img src="./image/cream.png" alt="">
+                    <p>Face Cream</p>
+                    <span>$ 1499</span>
+                </div>
+                 
+            </div>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
